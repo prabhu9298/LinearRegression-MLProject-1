@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Read the CSV data
-df=pd.read_csv(r"C:\Users\PRABHU DAS\Downloads\SOCR-HeightWeight.csv")
+df=pd.read_csv(r"C:\Users\PRABHU DAS\Downloads\SOCR-HeightWeight.csv")#change path of file
 df.head()
 # Visualize the data
 plt.scatter(df["Weight(Pounds)"],df["Height(Inches)"])
